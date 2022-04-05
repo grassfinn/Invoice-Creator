@@ -24,8 +24,7 @@ Users should be able to:
 - Click 'Send Invoice' button to clear out the prior items.
 
 ### Screenshot
-![./screenshots/Capture.PNG]
-![]
+![](./screenshots/Capture.PNG)
 
 ### Links
 
