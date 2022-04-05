@@ -24,12 +24,12 @@ Users should be able to:
 - Click 'Send Invoice' button to clear out the prior items.
 
 ### Screenshot
-![]
+![./screenshots/Capture.PNG]
 ![]
 
 ### Links
 
-- Live Site URL: [Invoice Creator](./screenshots/Capture.PNG)
+- Live Site URL: [Invoice Creator](https://grassfinn.github.io/Invoice-Creator/)
 
 ## My process
 
