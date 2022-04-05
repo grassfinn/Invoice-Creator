@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Invoice Creator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Invoice Creator</h1>
+      <p>Thanks for choosing HarpCorp, LLC!</p>
+    </header>
+    <div class="container">
+      <main>
+        <button class='purchase' id="car-wash">Car Wash: $10</button>
+        <button class='purchase' id="mow-lawn">Mow Lawn: $20</button>
+        <button class='purchase' id="pull-weeds">Pull Weeds: $30</button>
+        <section id="invoice-zone" class="flex">
+          <span class="left">Task</span><span class="right">Total</span>
+        </section>
+        <section id="invoice-list"></section>
+        <hr />
+      </main>
+      <footer>
+        <section class="flex">
+          <p class="left">Notes</p>
+          <p class="right"> Total Amount</p>
+        </section>
+        <section class="flex">
+          <p class="left"> We accept cash, credit, or PayPal</p> 
+          <p class="right" id="total-amount"></p>
+        </section>
+        <div>
+          <button id="send-invoice">Send invoice</button>
+        </div>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

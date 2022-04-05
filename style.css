@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header */
+header {
+    background-color: #3a69d2;
+    padding: 2em;
+}
+/* Main */
+body {
+    text-align: center;
+    font-size: 20px;
+    background-color: #1f2937;
+    color: white;
+    line-height: 1.6;
+}
+
+span {
+    margin: 1.5em 0
+}
+
+/* Footer */
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between
+
+}
+
+.purchase {
+    margin-top: 1em;
+    padding: 9px 13px;
+    border-radius: 7px;
+    border-style: none;
+    width: 150px;
+    height: 43px;
+}
+
+#send-invoice {
+    margin-top: 1em;
+    width: 75%;
+    height: 43px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: #3770ed;
+    color: white;
+}
+
+#total-amount {
+    font-size: 2.5rem;
+}
+
+
+
+/* *************************** */
+/* *****Phone Styles********** */
+/* *************************** */
+/* checking for screen of 350 px */
+@media screen and (min-width: 350px) {
+
+}
+
+/* *************************** */
+/* *****Tablet Styles********** */
+/* *************************** */
+@media screen and (min-width: 700px) {
+
+}
+
+/* *************************** */
+/* ****Desktop Styles********** */
+/* *************************** */
+@media screen and (min-width: 1100px) {
+
+}
